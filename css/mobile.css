@@ -1,0 +1,107 @@
+@media(max-width:411px) {
+    /*Generales---------------------------------------------------------------------------------------*/
+    * {
+        box-sizing: border-box;
+        list-style: none;
+        font-family: sans-serif;
+    }
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    /*FinGenerales---------------------------------------------------------------------------------------*/
+    /*Clases---------------------------------------------------------------------------------------*/
+    .main-container {
+        display: grid;
+        row-gap: 5px;
+        grid-template-areas: 'head head head head head head' 'nav nav nav nav nav nav' 'sec sec sec sec sec sec' 'foo foo foo foo foo foo';
+    }
+    /*Header-----------------------------------------------------------------------------------------------------*/
+    .header-container {
+        grid-area: head;
+        display: grid;
+        background-color: rgb(59, 142, 209);
+        padding: 20px;
+        text-align: center;
+    }
+    .header-container img {
+        max-width: 180px;
+        margin-right: 25px;
+    }
+    .nav-container {
+        grid-area: nav;
+        display: grid;
+        grid-template-areas: 'nos met app cont';
+        text-align: center;
+        gap: 5px;
+    }
+    .nav-container a {
+        background-color: rgb(64, 169, 201);
+        color: white;
+        text-decoration: none;
+    }
+    .metas {
+        grid-area: met;
+    }
+    .app {
+        grid-area: app;
+    }
+    .contacto {
+        grid-area: cont;
+    }
+    .nosotros {
+        grid-area: nos;
+    }
+    /*FinHeader-----------------------------------------------------------------------------------------*/
+    /*SectionPrincipal-----------------------------------------------------------------------------------------*/
+    .nosotros-content {
+        display: grid;
+        margin-top: 80px;
+        grid-template-areas: 'imgnos  imgnos  txtnos txtnos';
+    }
+    .imagen-nosotros {
+        grid-area: imgnos;
+        text-align: center;
+    }
+    .imagen-nosotros img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .texto-nosotros {
+        grid-area: txtnos;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .texto-nosotros h1 {
+        color: rgb(59, 142, 209);
+        font-size: 30px;
+    }
+    .metas-content {
+        display: grid;
+        text-align: center;
+        margin-top: 80px;
+        justify-content: center;
+    }
+    .video-metas video {
+        max-width: 1000px;
+    }
+    .texto-metas h1 {
+        color: rgb(59, 142, 209);
+        font-size: 30px;
+    }
+    .section-container {
+        grid-area: sec;
+    }
+    .footer-container {
+        grid-area: foo;
+    }
+    /*FinSectionPrincipal-----------------------------------------------------------------------------------------*/
+    /*FinClases---------------------------------------------------------------------------------------*/
+    /*Id´s---------------------------------------------------------------------------------------*/
+    /*FinId´s---------------------------------------------------------------------------------------*/
+    /*ClasesHover---------------------------------------------------------------------------------------*/
+    /*FinClasesHover---------------------------------------------------------------------------------------*/
+    /*Id´sHover---------------------------------------------------------------------------------------*/
+    /*FinId´sHover---------------------------------------------------------------------------------------*/
+}

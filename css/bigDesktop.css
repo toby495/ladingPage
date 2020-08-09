@@ -1,0 +1,15 @@
+@media(min-width:1400px) {
+    .content {
+        font-size: 26px;
+    }
+    .imagen-nosotros img {
+        width: 400px;
+        height: 400px;
+    }
+    .nosotros-content {
+        margin-top: 180px;
+    }
+    .metas-content {
+        margin-top: 220px;
+    }
+}

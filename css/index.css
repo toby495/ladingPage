@@ -51,6 +51,7 @@ body {
     background-color: rgb(64, 169, 201);
     color: white;
     text-decoration: none;
+    padding: 10px;
 }
 
 .metas {
@@ -69,15 +70,35 @@ body {
     grid-area: nos;
 }
 
+.we {
+    font-size: 30px
+}
+
+.goal {
+    font-size: 30px
+}
+
+.appi {
+    font-size: 30px
+}
+
+.conta {
+    font-size: 30px
+}
+
 
 /*FinHeader-----------------------------------------------------------------------------------------*/
 
 
 /*SectionPrincipal-----------------------------------------------------------------------------------------*/
 
+.content {
+    font-size: 18px;
+}
+
 .nosotros-content {
     display: grid;
-    margin-top: 80px;
+    margin-top: 90px;
     grid-template-areas: 'imgnos  imgnos  txtnos txtnos';
 }
 
@@ -95,18 +116,18 @@ body {
 .texto-nosotros {
     grid-area: txtnos;
     margin-top: 40px;
-    text-align: center;
+    text-align: justify;
 }
 
-.texto-nosotros h1 {
+.title {
     color: rgb(59, 142, 209);
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .metas-content {
     display: grid;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 130px;
     justify-content: center;
 }
 
@@ -121,6 +142,7 @@ body {
 
 .section-container {
     grid-area: sec;
+    display: grid;
 }
 
 .footer-container {
