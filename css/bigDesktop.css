@@ -3,13 +3,15 @@
         font-size: 26px;
     }
     .imagen-nosotros img {
-        width: 400px;
-        height: 400px;
+        max-width: 310px;
     }
     .nosotros-content {
         margin-top: 180px;
     }
     .metas-content {
         margin-top: 220px;
+    }
+    .imagenes-metas img {
+        max-width: 300px;
     }
 }
