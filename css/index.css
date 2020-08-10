@@ -126,7 +126,8 @@ body {
 .metas-content {
     display: grid;
     grid-template-areas: 'txtmetas txtmetas txtmetas txtmetas txtmetas txtmetas'' imgs imgs imgs imgs imgs imgs ';
-    margin-top: 70px;
+    margin-top: 300px;
+    row-gap: 22px;
     text-align: center;
 }
 
@@ -162,6 +163,18 @@ body {
     grid-area: img3;
 }
 
+.show {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.hide {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
 .section-container {
     grid-area: sec;
     display: grid;
@@ -180,6 +193,14 @@ body {
 
 /*Id´s---------------------------------------------------------------------------------------*/
 
+#metas-title {
+    color: white;
+}
+
+#metas-txt {
+    color: white;
+}
+
 
 /*FinId´s---------------------------------------------------------------------------------------*/
 
@@ -191,7 +212,7 @@ body {
 }
 
 .imagenes-metas img:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 

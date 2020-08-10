@@ -5,25 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Appoyalos</title>
-    <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bigDesktop.css">
     <link rel="stylesheet" href="css/mobile.css">
+    <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+
 </head>
 
 <body>
     <div class="main-container">
         <header class="header-container fadeInDown">
             <div class="logo-container">
-                <img src="media/appoyalos_logo_nuevo.png" alt="Logo">
+                <img src="media/appoyalos_logo_nuevo.png" alt="Logo" id="logo">
             </div>
         </header>
         <nav class="nav-container">
             <a href="" class="nosotros">
                 <i class="we fas fa-users"></i>
             </a>
-            <a href="#meta" class="metas">
+            <a href="" class="metas">
                 <i class="goal fas fa-bullseye"></i>
             </a>
 
@@ -54,12 +57,12 @@
 
             </div>
 
-            <div class="metas-content fadeInUp">
+            <div class="metas-content fadeInUp" style="background-color:rgb(64, 169, 201);">
                 <div class="texto-metas ">
                     <a href="" name="meta"></a>
-                    <h2 class="title">Nuestras metas</h2>
+                    <h2 class="title" id="metas-title">Nuestras metas</h2>
 
-                    <p class="content">
+                    <p class="content" id="metas-txt">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in ultricies arcukajksjka.gravida.Nullam varius imperdiet
                         <br> Proin id felis eu urna luctus gravida.Nullam varius imperdiet augue vitae tinciduntkk.augue vitae tinciduntkk elit.
                         <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in ultricies arcukajksjka.gravida.Nullam varius safe
@@ -68,15 +71,30 @@
                     </p>
 
                 </div>
-                <div class="imagenes-metas">
-                    <div class="img1-metas">
-                        <img src="media/Móvil Android – 2.png" alt="">
+                <div class="imagenes-metas" id="imagenes-metas">
+                    <div class="img1-metas" id="imgMetas">
+                        <img src="media/Móvil Android – 2.png" alt=""><br>
+                        <a>
+                            <i id="icon1" class="show fas fa-arrow-down"></i><br>
+                        </a>
+                        <p class="imagenes-txt" id="txtImg1" style="color: white;">Proin id felis eu urna luctus gravida.Nullam varius imperdiet augue vitae tinciduntkk.augue vitae tinciduntkk elit.Proin id felis eu urna luctus gravida.Nullam varius imperdiet augue vitae tinciduntkk.augue vitae tinciduntkk elit.Proin
+                            id felis eu urna luctus gravida.Nullam varius imperdiet augue vitae tinciduntkk.augue vitae tinciduntkk elit.</p>
                     </div>
-                    <div class="img2-metas">
-                        <img src="media/Móvil Android – 3.png" alt="">
+                    <div class="img2-metas" id="imgMetas">
+                        <img src="media/Móvil Android – 3.png" alt=""><br>
+                        <a id="icon2">
+                            <i class="show fas fa-arrow-down "></i><br>
+                        </a>
+                        <p class="imagenes-txt" id="txtImg2" style="color: white;"> Proin id felis eu urna luctus gravida.Nullam varius imperdiet augue vitae tinciduntkk.augue vitae tinciduntkk elit.Proin id felis eu urna luctus gravida.Nullam varius imperdiet augue vitae tinciduntkk.augue vitae tinciduntkk elit.Proin
+                            id felis eu urna luctus gravida.Nullam varius imperdiet augue vitae tinciduntkk.augue vitae tinciduntkk elit.</p>
                     </div>
-                    <div class="img3-metas">
-                        <img src="media/Móvil Android – 4.png" alt="">
+                    <div class="img3-metas" id="imgMetas">
+                        <img src="media/Móvil Android – 4.png" alt=""><br>
+                        <a id="icon3">
+                            <i class="show fas fa-arrow-down"></i><br>
+                        </a>
+                        <p class="imagenes-txt" id="txtImg3" style="color: white;">Proin id felis eu urna luctus gravida.Nullam varius imperdiet augue vitae tinciduntkk.augue vitae tinciduntkk elit.Proin id felis eu urna luctus gravida.Nullam varius imperdiet augue vitae tinciduntkk.augue vitae tinciduntkk elit.Proin
+                            id felis eu urna luctus gravida.Nullam varius imperdiet augue vitae tinciduntkk.augue vitae tinciduntkk elit.</p>
                     </div>
                 </div>
             </div>
