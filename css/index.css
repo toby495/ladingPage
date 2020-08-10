@@ -139,12 +139,14 @@ body {
 .imagenes-metas {
     grid-area: imgs;
     display: grid;
+    column-gap: 10px;
     grid-template-areas: 'img1 img1 img2 img2 img3 img3';
 }
 
 .imagenes-metas img {
     max-width: 200px;
     transition: 0.2s ease-in-out 0.2s;
+    text-align: center;
 }
 
 .texto-metas {
@@ -165,7 +167,7 @@ body {
 
 .show {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
 }
 
