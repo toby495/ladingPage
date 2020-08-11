@@ -14,4 +14,10 @@
     .imagenes-metas img {
         max-width: 300px;
     }
+    .imagenes-txt {
+        font-size: 25 px;
+    }
+    .imagenes-metas {
+        column-gap: 25px;
+    }
 }
