@@ -5,7 +5,8 @@
     }
     .nosotros-content {
         grid-template-areas: 'imgnos  imgnos''  txtnos txtnos';
-        column-gap: 40px;
+        margin-left: 30px;
+        margin-right: 20px;
     }
     .title {
         font-size: 24px;
