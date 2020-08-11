@@ -103,7 +103,6 @@ body {
 
 .nosotros-content {
     display: grid;
-    margin-top: 10px;
 }
 
 .title {
@@ -114,8 +113,7 @@ body {
 .metas-content {
     display: grid;
     grid-template-areas: 'txtmetas txtmetas txtmetas txtmetas txtmetas txtmetas'' imgs imgs imgs imgs imgs imgs ';
-    margin-top: 300px;
-    row-gap: 22px;
+    margin-top: 200px;
     text-align: center;
 }
 
@@ -196,10 +194,6 @@ body {
 
 
 /*ClasesHover---------------------------------------------------------------------------------------*/
-
-.imagen-nosotros img:hover {
-    transform: scale(1.1);
-}
 
 .imagenes-metas img:hover {
     transform: scale(1.02);
