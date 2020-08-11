@@ -5,6 +5,7 @@
     }
     .nosotros-content {
         grid-template-areas: 'imgnos  imgnos''  txtnos txtnos';
+        column-gap: 40px;
     }
     .title {
         font-size: 24px;
@@ -14,5 +15,20 @@
     }
     .nosotros-content img {
         max-width: 150px;
+    }
+    .we {
+        font-size: 25px
+    }
+    .goal {
+        font-size: 25px
+    }
+    .appi {
+        font-size: 25px
+    }
+    .conta {
+        font-size: 25px
+    }
+    #logo {
+        margin-left: 18px;
     }
 }
