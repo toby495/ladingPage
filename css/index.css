@@ -103,24 +103,7 @@ body {
 
 .nosotros-content {
     display: grid;
-    margin-top: 50px;
-    grid-template-areas: 'imgnos  imgnos  txtnos txtnos';
-}
-
-.imagen-nosotros {
-    grid-area: imgnos;
-    text-align: center;
-}
-
-.imagen-nosotros img {
-    max-width: 230px;
-    transition: 0.2s ease-in-out 0.2s;
-}
-
-.texto-nosotros {
-    grid-area: txtnos;
-    margin-top: 40px;
-    text-align: justify;
+    margin-top: 10px;
 }
 
 .title {
@@ -220,6 +203,22 @@ body {
 
 .imagenes-metas img:hover {
     transform: scale(1.02);
+}
+
+#we {
+    color: white;
+}
+
+#goal {
+    color: white;
+}
+
+#appi {
+    color: white;
+}
+
+#contact {
+    color: white;
 }
 
 

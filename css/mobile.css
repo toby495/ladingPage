@@ -3,17 +3,11 @@
         grid-template-areas: 'img1 img1'' img2 img2' 'img3 img3';
         row-gap: 100px;
     }
-    .nosotros-content {
-        grid-template-areas: 'imgnos  imgnos''  txtnos txtnos';
-    }
     .title {
         font-size: 24px;
     }
     .content {
         font-size: 10px;
-    }
-    .nosotros-content img {
-        max-width: 150px;
     }
     .we {
         font-size: 25px
