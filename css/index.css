@@ -120,7 +120,6 @@ body {
     display: grid;
     grid-template-areas: 'txtmetas txtmetas txtmetas txtmetas txtmetas txtmetas'' imgs imgs imgs imgs imgs imgs ';
     text-align: center;
-    margin-top: 200px;
     grid-area: sectionMetas;
 }
 
