@@ -35,15 +35,18 @@
     }
     .texto-section1 {
         position: absolute;
-        margin-top: 40px;
+        margin-top: 45px;
+        padding: 10px;
     }
     .texto-section2 {
         margin-top: 40px;
         position: absolute;
+        padding: 10px;
     }
     .texto-section3 {
         position: absolute;
         margin-top: 40px;
+        padding: 10px;
     }
     #img-section1 {
         opacity: 0.4;
