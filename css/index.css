@@ -123,6 +123,10 @@ body {
     grid-area: sectionMetas;
 }
 
+.texto-metas {
+    margin-top: 50px;
+}
+
 .texto-metas h1 {
     color: rgb(59, 142, 209);
     font-size: 30px;
