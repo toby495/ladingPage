@@ -21,10 +21,37 @@
     .conta {
         font-size: 25px
     }
-    .section1 {
-        grid-template-areas: 'imgSec1  txtSec1 ';
-    }
     #logo {
-        margin-left: 18px;
+        margin: auto;
+    }
+    .section1 {
+        background-color: black;
+    }
+    .section2 {
+        background-color: black;
+    }
+    .section3 {
+        background-color: black;
+    }
+    .texto-section1 {
+        position: absolute;
+        margin-top: 45px;
+    }
+    .texto-section2 {
+        margin-top: 45px;
+        position: absolute;
+    }
+    .texto-section3 {
+        position: absolute;
+        margin-top: 45px;
+    }
+    #img-section1 {
+        opacity: 0.4;
+    }
+    #img-section2 {
+        opacity: 0.4;
+    }
+    #img-section3 {
+        opacity: 0.4;
     }
 }
